@@ -10,6 +10,7 @@ MySQL Credential
 user : root
 password : root
 
+
 create database blog;
 CREATE TABLE blog.users(
     id int primary key auto_increment,
