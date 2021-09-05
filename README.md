@@ -47,4 +47,3 @@ CREATE TABLE blog.reply(
     foreign key (author) references users (username) on delete cascade
 ) engine=InnoDB default charset=utf8;
 
-
